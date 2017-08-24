@@ -16,6 +16,6 @@ The Securitron Project is aimed at creating an easy-to-use file encryption tool 
 
 ###### Installation:
 
- * For Windows: The precompiled executable (.exe) can be run out of the box and requires no additional dependencies to be installed as all the required packeges have been packaged beforehand.
+ * For Windows: The precompiled executable (.exe) can be run out of the box and requires no additional dependencies.
  
  * For Linux and Mac: The PyCrypto and Tendo modules must be installed beforehand using either pip (pip install pycrypto, pip install tendo) or easyinstall. The Securitron files may be extracted to any location on disk and run using the 'python' command (python GUI.py)
