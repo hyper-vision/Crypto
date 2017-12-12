@@ -12,7 +12,6 @@ def encrypt_file(key, in_filename, out_filename=None, chunksize=64 * 1024):
         out_filename = in_filename + '.enc'
 
     iv = ''.join(chr(random.randint(0, 0xFF)) for i in range(16))
-    '''Cipher generation'''
     encryptor = AES.new(key, AES.MODE_CBC, iv)
     filesize = os.path.getsize(in_filename)
 
