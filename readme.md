@@ -11,7 +11,7 @@ The Securitron Project is aimed at creating an easy-to-use file encryption tool 
 * Any x86 or x64 based Windows, Mac or Linux.
 * At least 256 MB of RAM
 * Python 2.7 with required dependencies installed
-* PyCrypto module and Tendo module (Prevent mutliple instances) for Linux and Mac systems.
+* PyCrypto module and Tendo module (to prevent mutliple instances) for Linux and Mac systems.
 
 
 ###### Installation:
